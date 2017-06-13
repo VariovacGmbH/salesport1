@@ -1,0 +1,11 @@
+#HEADER						
+master	text	price	image	condition	hash	comment
+#END_HEADER						
+						
+#DATA						
+kuehler_BK30	|kuehler_BK30|	1820				
+kuehler_BK30_extern	|kuehler_BK30_extern|	1925				
+kuehler_BK70	|kuehler_BK70|	2360				
+kuehler_BK90	|kuehler_BK90|	2615				
+ohne kuehler	|ohne kuehler|	0				
+#END_DATA						

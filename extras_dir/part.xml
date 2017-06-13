@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE CADOBJECT SYSTEM "cadobject.dtd">
+<CADOBJECT version="1.0" file="part.xml">
+    <OBJECT name="PART.PRT" id="ID.PART.PRT">
+        <MAINVALUES>
+            <MAIN name="ASSEMBLE" value=""/>
+            <MAIN name="BITMAP" value=""/>
+            <MAIN name="CADFILE" value="PART.PRT"/>
+            <MAIN name="CADPATH" value=""/>
+            <MAIN name="CLASS" value=""/>
+            <MAIN name="IDENT" value=""/>
+            <MAIN name="INFO" value=""/>
+            <MAIN name="MASS" value=""/>
+            <MAIN name="MODIFY" value="MASTER"/>
+            <MAIN name="PAINT" value=""/>
+            <MAIN name="POST" value=""/>
+            <MAIN name="PRE" value=""/>
+            <MAIN name="SCRIPT" value=""/>
+            <MAIN name="SIZE" value=""/>
+            <MAIN name="SREP" value=""/>
+            <MAIN name="TABLE" value=""/>
+            <MAIN name="TYPE" value="PART"/>
+        </MAINVALUES>
+        <DIMENSIONS/>
+        <PARAMETERS/>
+        <ATTRIBUTES/>
+        <REFERENCES/>
+        <REFNAMES/>
+        <ENTITIES/>
+        <FEATURES/>
+        <COMPONENTS/>
+        <GROUPS/>
+    </OBJECT>
+</CADOBJECT>
+

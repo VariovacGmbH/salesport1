@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE CADOBJECT SYSTEM "cadobject.dtd">
+<CADOBJECT version="1.0" file="feature.xml">
+    <OBJECT name="FEATURE.GPH" id="ID.FEATURE.GPH">
+        <MAINVALUES>
+            <MAIN name="ASSEMBLE" value=""/>
+            <MAIN name="BITMAP" value=""/>
+            <MAIN name="CADFILE" value="FEATURE.GPH"/>
+            <MAIN name="CADPATH" value=""/>
+            <MAIN name="CLASS" value=""/>
+            <MAIN name="IDENT" value=""/>
+            <MAIN name="INFO" value=""/>
+            <MAIN name="MASS" value=""/>
+            <MAIN name="MODIFY" value="FIX"/>
+            <MAIN name="PAINT" value=""/>
+            <MAIN name="POST" value=""/>
+            <MAIN name="PRE" value=""/>
+            <MAIN name="SCRIPT" value=""/>
+            <MAIN name="SIZE" value=""/>
+            <MAIN name="SREP" value=""/>
+            <MAIN name="TABLE" value=""/>
+            <MAIN name="TYPE" value="FEATURE"/>
+        </MAINVALUES>
+        <DIMENSIONS/>
+        <PARAMETERS/>
+        <ATTRIBUTES/>
+        <REFERENCES/>
+        <REFNAMES/>
+        <ENTITIES/>
+        <FEATURES/>
+        <COMPONENTS/>
+        <GROUPS/>
+    </OBJECT>
+</CADOBJECT>
+

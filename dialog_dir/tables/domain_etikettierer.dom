@@ -1,0 +1,13 @@
+#HEADER						
+master	text	price	image	condition	hash	comment
+#END_HEADER						
+						
+#DATA						
+etikettierer_oben_ feststehend	|etikettierer_oben_ feststehend|	0				
+etikettierer_unten_feststehend	|etikettierer_unten_feststehend|	0				
+etikettierer_oben_unten_feststehend	|etikettierer_oben_unten_feststehend|	0				
+etikettierer_oben_verfahrbar	|etikettierer_oben_verfahrbar|	0				
+etikettierer_unten_verfahrbar	|etikettierer_unten_verfahrbar|	0				
+etikettierer_oben_unten_verfahrbar	|etikettierer_oben_unten_verfahrbar|	0				
+etikettierer_ohne	|etikettierer_ohne|	0				
+#END_DATA						

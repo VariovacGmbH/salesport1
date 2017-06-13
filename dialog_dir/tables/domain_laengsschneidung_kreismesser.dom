@@ -1,0 +1,17 @@
+#HEADER						
+master	text	price	image	condition	hash	comment
+#END_HEADER						
+						
+#DATA						
+Kreismesser_1_track	|Kreismesser_1_track|	240				
+Kreismesser_2_track	|Kreismesser_2_track|	395				
+Kreismesser_3_track	|Kreismesser_3_track|	555				
+Kreismesser_4_track	|Kreismesser_4_track|	715				
+Kreismesser_5_track	|Kreismesser_5_track|	870				
+Kreismesser_6_track	|Kreismesser_6_track|	1030				
+Kreismesser_Mittelstr_2_track	|Kreismesser_Mittelstr_2_track|	345				
+Kreismesser_Mittelstr_3_track	|Kreismesser_Mittelstr_3_track|	695				
+Kreismesser_Mittelstr_4_track	|Kreismesser_Mittelstr_4_track|	1040				
+Kreismesser_Mittelstr_5_track	|Kreismesser_Mittelstr_5_track|	1385				
+Kreismesser_Mittelstr_6_track	|Kreismesser_Mittelstr_6_track|	1735				
+#END_DATA						

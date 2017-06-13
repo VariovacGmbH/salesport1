@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dscx format_version="2.1" configurator_version="2017">
+    <confdialog text="Dialog 'SALESPORT'" comment2="" data="{}">
+        <proccontrol text="salesport_init" comment2="" comment="0" data="salesport_init {} {}">
+            <createtable_maskelement text="Tabelle aus Dialogdaten" comment2="" comment="0" data="{function dialogvariables tablename zusammenfassung_var vargroup {} sort 0 returnvar {}}"/>
+            <createtable_maskelement text="Tabelle aus Dialogdaten" comment2="" comment="0" data="{function masksequence tablename tabelle_mask vargroup {} sort 0 returnvar {}}"/>
+        </proccontrol>
+    </confdialog>
+    <confdialog text="Navi" comment2="" data="{}">
+        <proccontrol text="masterbutton1_cmd" comment2="" comment="0" data="masterbutton1_cmd {} {}">
+            <dialognavimask text="Dialogsteuerung" comment2="" comment="0" data="{dialogfinish Produkte WIZARD {} {} {} {}}"/>
+        </proccontrol>
+        <proccontrol text="masterbutton2_cmd" comment2="" comment="0" data="masterbutton2_cmd {} {}">
+            <dialognavimask text="Dialogsteuerung" comment2="" comment="0" data="{executeexter Basismaschine {} {} {} {} {}}"/>
+        </proccontrol>
+        <proccontrol text="masterbutton3_cmd" comment2="" comment="0" data="masterbutton3_cmd {} {}">
+            <dialognavimask text="Dialogsteuerung" comment2="" comment="0" data="{executewizard Packungen WIZARD {} {} {} {}}"/>
+        </proccontrol>
+        <proccontrol text="masterbutton4_cmd" comment2="" comment="0" data="masterbutton4_cmd {} {}">
+            <dialognavimask text="Dialogsteuerung" comment2="" comment="0" data="{executewizard Schneidung {} {} {} {} {}}"/>
+        </proccontrol>
+        <proccontrol text="masterbutton5_cmd" comment2="" comment="0" data="masterbutton5_cmd {} {}">
+            <dialognavimask text="Dialogsteuerung" comment2="" comment="0" data="{dialogdone Sonderausstattung {} {} {} {} {}}"/>
+        </proccontrol>
+    </confdialog>
+</dscx>
+

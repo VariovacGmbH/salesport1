@@ -1,0 +1,59 @@
+﻿#@PC30
+
+#SOURCE
+### Dialog Setup ###
+SetDialogVariables "recursive"
+SetDialogPreDefault "ExecuteInitValues"
+SetDialogPostDefault "ExecuteUpdateModels"
+SetDialogStyle "[GetUserExtrasDir]/salesport.sty"
+SetDialogMaster "[GetUserExtrasDir]/salesport.msk"
+SetDialogLangFile ""
+SetDialogTablesFile ""
+SetDialogPlaceholdersFile ""
+SetDialogInitFile ""
+SetDialogVarsFile ""
+SetDialogDecisionsFile ""
+SetDialogScriptFile ""
+SetDialogRulebaseAction ""
+SetDialogMaskOrder "Produkte Basismaschine Packungen Schneidung Sonderausstattung"
+SetDialogNextMask "Produkte"
+SetDialogFrameFile head "[GetUserExtrasDir]/salesport_head.msk"
+SetDialogFrameFile top ""
+SetDialogFrameFile left ""
+SetDialogFrameFile right ""
+SetDialogFrameFile bottom ""
+SetDialogFrameFile foot ""
+
+### Mask Setup ###
+SetDialogMaskTitle Produkte {Produkte}
+SetDialogMaskStyle Produkte "[GetUserExtrasDir]/salesport.sty"
+SetDialogMaskMaster Produkte "[GetUserExtrasDir]/salesport.msk"
+SetDialogPopupAnchor Produkte "center"
+SetDialogMaskTitle Basismaschine {Basismaschine}
+SetDialogMaskStyle Basismaschine "[GetUserExtrasDir]/salesport.sty"
+SetDialogMaskMaster Basismaschine "[GetUserExtrasDir]/salesport.msk"
+SetDialogPopupAnchor Basismaschine "center"
+SetDialogMaskTitle Packungen {Packungen}
+SetDialogMaskStyle Packungen "[GetUserExtrasDir]/salesport.sty"
+SetDialogMaskMaster Packungen "[GetUserExtrasDir]/salesport.msk"
+SetDialogPopupAnchor Packungen "center"
+SetDialogMaskTitle Schneidung {Schneidung}
+SetDialogMaskStyle Schneidung "[GetUserExtrasDir]/salesport.sty"
+SetDialogMaskMaster Schneidung "[GetUserExtrasDir]/salesport.msk"
+SetDialogPopupAnchor Schneidung "center"
+SetDialogMaskTitle Sonderausstattung {Sonderausstattung}
+SetDialogMaskStyle Sonderausstattung "[GetUserExtrasDir]/salesport.sty"
+SetDialogMaskMaster Sonderausstattung "[GetUserExtrasDir]/salesport.msk"
+SetDialogPopupAnchor Sonderausstattung "center"
+### Initial Values ###
+### Setup complete ###
+#END_SOURCE
+
+#HEADER
+index:user	userlevel:user	userlang:user	mask_name:user	name:user	gui_type:user	position:user	pos_x:user	pos_y:user	width:user	height:user	text:user	options:user
+DE	Anwenderstatus	Sprache	Maskenname	Elementname	Elementtyp	Position	X-Wert	Y-Wert	Breite	Höhe	Text	Optionen
+#END_HEADER
+
+#DATA
+#END_DATA
+

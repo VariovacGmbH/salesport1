@@ -1,0 +1,12 @@
+﻿#HEADER					
+master	text	image	condition	hash	comment
+#END_HEADER					
+					
+#DATA					
+steuerung_sprache	de				
+steuerung_status	verdeckt				
+					
+					
+					
+					
+#END_DATA					

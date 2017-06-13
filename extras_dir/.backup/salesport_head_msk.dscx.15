@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dscx format_version="2.1" configurator_version="2017">
+    <confdialog text="Master Elemente" comment2="" data="{}">
+        <proccontrol text="masterbutton1_cmd" comment2="" comment="0" data="masterbutton1_cmd {} {}">
+            <dialogupdatemask text="Elemente aktualisieren" comment2="" comment="0" data="{0 1 {{0 {;MasterButton1;disable}} {1 {;MasterButton2;enable}} {2 {;MasterButton3;enable}} {3 {;MasterButton4;enable}} {4 {;MasterButton5;disable}}}}"/>
+        </proccontrol>
+        <proccontrol text="masterbutton2_cmd" comment2="" comment="0" data="masterbutton2_cmd {} {}">
+            <dialogupdatemask text="Elemente aktualisieren" comment2="" comment="0" data="{0 1 {{0 {;MasterButton1;enable}} {1 {;MasterButton2;disable}} {2 {;MasterButton3;enable}} {3 {;MasterButton4;enable}} {4 {;MasterButton5;update}}}}"/>
+        </proccontrol>
+    </confdialog>
+</dscx>
+

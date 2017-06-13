@@ -1,0 +1,15 @@
+﻿#HEADER							
+master	text	langtext_vakuumpumpe	price	image	condition	hash	comment
+#END_HEADER							
+							
+#DATA							
+pumpe_63	|pumpe_63|	Ellenlanger Text \n Ellenlanger Text 2 \n Ellenlanger Text 3 zu Pumpe 63	1735				
+pumpe_100	|pumpe_100|		2665				
+pumpe_2x100	|pumpe_2x100|		5325				
+pumpe_155_intern	|pumpe_155_intern|		3405				
+pumpe_155_extern	|pumpe_155_extern|		3405				
+pumpe_250	|pumpe_250|		5355				
+ohne_pumpe	|ohne_pumpe|		0				
+zentralvakuum_1_rohr	|zentralvakuum_1_rohr|	Ellenlanger Text \n Ellenlanger Text 2 \n Ellenlanger Text 3 zu Zentralpumpe 1 Rohr	1020				
+zentralvakuum_2_rohr	|zentralvakuum_2_rohr|		4015				
+#END_DATA							

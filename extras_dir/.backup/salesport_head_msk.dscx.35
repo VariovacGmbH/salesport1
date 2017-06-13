@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dscx format_version="2.1" configurator_version="2017">
+    <confdialog text="Master Elemente" comment2="" data="{}">
+        <proccontrol text="masterbutton1_cmd" comment2="" comment="0" data="masterbutton1_cmd {} {}">
+            <dialognavimask text="Dialogsteuerung" comment2="" comment="0" data="{wizard Produkte {} {} {} {} {}}"/>
+        </proccontrol>
+        <proccontrol text="masterbutton2_cmd" comment2="" comment="0" data="masterbutton2_cmd {} {}">
+            <dialognavimask text="Dialogsteuerung" comment2="" comment="0" data="{executewizard {} {} {} {} {} {}}"/>
+        </proccontrol>
+        <proccontrol text="masterbutton3_cmd" comment2="" comment="0" data="masterbutton3_cmd {} {}"/>
+        <proccontrol text="masterbutton4_cmd" comment2="" comment="0" data="masterbutton4_cmd {} {}"/>
+        <proccontrol text="masterbutton5_cmd" comment2="" comment="0" data="masterbutton5_cmd {} {}"/>
+    </confdialog>
+</dscx>
+

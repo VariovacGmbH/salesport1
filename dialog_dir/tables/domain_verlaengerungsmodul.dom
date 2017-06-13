@@ -1,0 +1,11 @@
+#HEADER						
+master	text	price	image	condition	hash	comment
+#END_HEADER						
+						
+#DATA						
+verlaengerung_20	|verlaengerung_20|	16900				
+verlaengerung_25	|verlaengerung_25|	18200				
+verlaengerung_30	|verlaengerung_30|	19500				
+verlaengerung_35	|verlaengerung_35|	20800				
+verlaengerung_0	|verlaengerung_0|	0				
+#END_DATA						

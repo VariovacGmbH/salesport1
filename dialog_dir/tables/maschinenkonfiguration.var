@@ -1,0 +1,48 @@
+﻿#HEADER																			
+variable	group	parent	text	longtext	help	prefix	initvalue	unit	suffix	datatype	domaintype	domain	options	ranges	actionvariable	actiondecision	condition	hash	comment
+#END_HEADER																			
+																			
+#DATA																			
+grundmaschine:user:wizard			|grundmaschine|							string	table	master:user text:user @ domain_grundmaschine	c						
+kettenschmierung:user:wizard			|kettenschmierung|							boolean	textlist	{0} {1 |kettenschmierung|}							
+oberfolienabrollung:user:wizard			|oberfolienabrollung|							string	table	master:user text:user @ domain_oberfolienabrollung							
+unterfolienabrollung:user:wizard			|unterfolienabrollung|							string	table	master:user text:user @ domain_unterfolienabrollung							
+verlaengerungsmodul:user:wizard			|verlaengerungsmodul|							string	table	master:user text:user @ domain_verlaengerungsmodul							
+abzugslaenge:user:wizard			|abzugslaenge|							integer	range	200 .. 400 ~ 10				Grundwerkzeug			
+vakuumsystem:user:wizard			|vakuumsystem|							string	table								
+erweiterung_skin:user:wizard			|erweiterung_skin|							string	table								
+erweiterung_dampf:user:wizard			|erweiterung_dampf|							boolean	textlist	{0} {1 |erweiterung_dampf|}							
+erweiterung_schrumpf:user:wizard			|erweiterung_schrumpf|							boolean	textlist	{0} {1 |erweiterung_schrumpf|}							
+vakuumpumpe:user:wizard			|vakuumpumpe|							string	table	master:user text:user @ domain_vakuumpumpe							
+laengsschneidung_grundausstattung:user:wizard			|laengsschneidung_grundaussttatung|							string	table	master:user text:user @ domain_laengsschneidung_grundausstattung							
+quetschmesser:user:wizard			|quetschmesser|							string	table								
+restfolienentsorgung:user:wizard			|restfolienentsorgung|							string	table	master:user text:user @ domain_restfolienentsorgung							
+packungsabtransport:user:wizard			|packungsabtransport|							string	table	master:user text:user @ domain_packungsabtransport							
+transportverpackung:user:wizard			|transportverpackung|							string	table	master:user text:user @ domain_transportverpackung							
+etikettierung:user:wizard			|etikettierung|							string	table	master:user text:user @ domain_etikettierer							
+begasung:user:wizard			|begasung|							boolean	textlist	{0} {1 |begasung|}							
+gaspufferbehaelter:user:wizard			|gaspufferbehaelter|							boolean	textlist	{0} {1 |gaspufferbehaelter|}							
+softvakuum:user:wizard			|softvakuum|							boolean	textlist	{0} {1 |softvakuum|}							
+kuehler:user:wizard			|kuehler|							string	table	master:user text:user @ domain_kuehler							
+durchflusswaechter:user:wizard			|durchflusswaechter|							boolean	textlist	{0} {1 |durchflusswaechter|}							
+druckmarkensteuerung:user:wizard			|druckmarkensteuerung|							boolean	textlist	{0} {1 |druckmarkensteuerung|}							
+ofo_heftstation:user:wizard			|ofo_heftstation|							boolean	textlist	{0} {1 |ofo_heftstation|}							
+folienbremse_ohne_taenzerarm:user:wizard			|folienbremse_ohne_taenzerarm|							boolean	textlist	{0} {1 |folienbremse_ohne_taenzerarm|}							
+fluessigkeitsabscheider:user:wizard			|fluessigkeitsabscheider|							boolean	textlist	{0} {1 |fluessigkeitsabscheider|}							
+o2_sicherheitseinrichtung:user:wizard			|o2_sicherheitseinrichtung|							boolean	textlist	{0} {1 |o2_sicherheitseinrichtung|}							
+synchronisation:user:wizard			|synchronisation|							boolean	textlist	{0} {1 |synchronisation|}							
+schaltschrankheizung:user:wizard			|schaltschrankheizung|							boolean	textlist	{0} {1 |schaltschrankheizung|}							
+packungsunterstuetzung:user:wizard			|packungsunterstuetzung|							boolean	textlist	{0} {1 |packungsunterstuetzung|}							
+ferndiagnose:user:wizard			|ferndiagnose|							boolean	textlist	{0} {1 |ferndiagnose|}							
+schwenkpanel:user:wizard			|schwenkpanel|							boolean	textlist	{0} {1 |schwenkpanel|}							
+druckertraverse:user:wizard			|druckertraverse|							boolean	textlist	{0} {1 |druckertraverse|}							
+regal:user:wizard			|regal|							boolean	textlist	{0} {1 |regal|}							
+ersatzteilpaket:user:wizard			|ersatzteilpaket|							string	table								
+grundwerkzeug:user:wizard			|grundwerkzeug|							string	table	master:user text:user @ domain_grundwerkzeug							
+packungsgroesse:user:wizard										string	table	master:user text:user @ domain_packungsgroesse	c						
+anzahl_vollflaechenplatte:user:wizard										integer	range	0 ..							
+anzahl_rahmenplatte:user:wizard										integer	range	0 ..							
+laengsschneidung_kreismesser:user:wizard										string	table	master:user text:user @ domain_laengsschneidung_kreismesser							
+steuerung_sprache.user:wizard										string	textlist	master:user text:user @ domain_steuerung							
+steuerung_status.user:wizard										string	textlist	master:user text:user @ domain_steuerung							
+#END_DATA																			

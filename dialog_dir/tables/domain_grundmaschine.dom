@@ -1,0 +1,30 @@
+﻿#HEADER								
+master	text	price	film_width	frame_length	image	condition	hash	comment
+#END_HEADER								
+								
+#DATA								
+Optimus25FB320	|Optimus25FB320|	40825	320	2500				
+Optimus25FB355	|Optimus25FB355|	40825	355	2500				
+Optimus25FB420	|Optimus25FB420|	41725	420	2500				
+Optimus25FB460	|Optimus25FB460|	41725	460	2500				
+Optimus30FB320	|Optimus30FB320|	42315	320	3000				
+Optimus30FB355	|Optimus30FB355|	42315	355	3000				
+Optimus30FB420	|Optimus30FB420|	43215	420	3000				
+Optimus30FB460	|Optimus30FB460|	43215	460	3000				
+Optimus35FB320	|Optimus35FB320|	43575	320	3500				
+Optimus35FB355	|Optimus35FB355|	43575	355	3500				
+Optimus35FB420	|Optimus35FB420|	44475	420	3500				
+Optimus35FB460	|Optimus35FB460|	44475	460	3500				
+Optimus40FB320	|Optimus40FB320|	45375	320	4000				
+Optimus40FB355	|Optimus40FB355|	45375	355	4000				
+Optimus40FB420	|Optimus40FB420|	46275	420	4000				
+Optimus40FB460	|Optimus40FB460|	46275	460	4000				
+Optimus45FB320	|Optimus45FB320|	46635	320	4500				
+Optimus45FB355	|Optimus45FB355|	46635	355	4500				
+Optimus45FB420	|Optimus45FB420|	47535	420	4500				
+Optimus45FB460	|Optimus45FB460|	47535	460	4500				
+Optimus50FB320	|Optimus50FB320|	49635	320	5000				
+Optimus50FB355	|Optimus50FB355|	49635	355	5000				
+Optimus50FB420	|Optimus50FB420|	50535	420	5000				
+Optimus50FB460	|Optimus50FB460|	50535	460	5000				
+#END_DATA								

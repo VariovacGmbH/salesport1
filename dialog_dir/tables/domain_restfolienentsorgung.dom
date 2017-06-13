@@ -1,0 +1,9 @@
+#HEADER						
+master	text	price	image	condition	hash	comment
+#END_HEADER						
+						
+#DATA						
+absauger	|absauger|	2375				
+aufwickler	|aufwickler|	4160				
+ohne_ randstreifenabfuhr	|ohne_ randstreifenabfuhr|	0				
+#END_DATA						

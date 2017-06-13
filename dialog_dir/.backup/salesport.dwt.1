@@ -1,0 +1,41 @@
+﻿#@PC30
+
+#SOURCE
+### Dialog Setup ###
+SetDialogVariables "recursive"
+SetDialogPreDefault "ExecuteInitValues"
+SetDialogPostDefault "ExecuteUpdateModels"
+SetDialogStyle "[GetUserExtrasDir]/salesport.sty"
+SetDialogMaster "[GetUserExtrasDir]/salesport.msk"
+SetDialogLangFile ""
+SetDialogTablesFile ""
+SetDialogPlaceholdersFile ""
+SetDialogInitFile ""
+SetDialogVarsFile ""
+SetDialogDecisionsFile ""
+SetDialogScriptFile ""
+SetDialogRulebaseAction ""
+SetDialogMaskOrder "Maske1"
+SetDialogNextMask ""
+SetDialogFrameFile head "[GetUserExtrasDir]/salesport_head.msk"
+SetDialogFrameFile top ""
+SetDialogFrameFile left ""
+SetDialogFrameFile right ""
+SetDialogFrameFile bottom ""
+SetDialogFrameFile foot ""
+
+### Mask Setup ###
+SetDialogMaskTitle Maske1 {Produkte}
+SetDialogPopupAnchor Maske1 "center"
+### Initial Values ###
+### Setup complete ###
+#END_SOURCE
+
+#HEADER
+index:user	userlevel:user	userlang:user	mask_name:user	name:user	gui_type:user	position:user	pos_x:user	pos_y:user	width:user	height:user	text:user	options:user
+DE	Anwenderstatus	Sprache	Maskenname	Elementname	Elementtyp	Position	X-Wert	Y-Wert	Breite	Höhe	Text	Optionen
+#END_HEADER
+
+#DATA
+#END_DATA
+

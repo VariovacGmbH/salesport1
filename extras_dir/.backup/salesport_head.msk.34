@@ -1,0 +1,20 @@
+﻿##### master mask settings #####
+
+SetDialogScriptFile [GetUserExtrasDir]/salesport_head_msk.dscx
+
+
+### master mask elements
+
+::userGUI::CreateButton 0 0 30 15  -activeimg {[GetUserImageDir]/DE_1_AKTIV.PNG} -autoevent 0 -autowrap 0 -borderwidth 0 -border_left 4 -border_right 4 -border_top 4 -border_bottom 4 -command masterbutton1_cmd -compound center -gradient 0 -hidden 0 -imagecut 0 -imagefile {[GetUserImageDir]/DE_1_INAKTIV.PNG} -imagescale 0 -imagescaledirection 0 -imagetext 1 -imagetiles 0 -name MasterButton1 -show_hide 0 -shrinkonly 0 -state normal -substtext 1 -transparent 0 -unrestricted 0 -webstyle 1 -dyn_statevar 0 -dyn_updatevar 0 -dyn_validvar 0 -dyn_viewvar 0 -auto_update 0 -expand_hori fixed -expand_vert fixed -lang {} -runmode {LOCAL-LIVE LOCAL-BATCH REMOTE-BATCH WEB-LIVE WEB-BATCH}
+
+::userGUI::CreateButton 30 0 30 15  -activeimg {[GetUserImageDir]/de_2_aktiv.png} -autoevent 0 -autowrap 0 -borderwidth 0 -border_left 4 -border_right 4 -border_top 4 -border_bottom 4 -command masterbutton2_cmd -compound center -gradient 0 -hidden 0 -imagecut 0 -imagefile {[GetUserImageDir]/de_2_inaktiv.png} -imagescale 1 -imagescaledirection 0 -imagetext 1 -imagetiles 0 -name MasterButton2 -show_hide 0 -shrinkonly 1 -state normal -substtext 1 -transparent 0 -unrestricted 0 -webstyle 1 -dyn_statevar 0 -dyn_updatevar 0 -dyn_validvar 0 -dyn_viewvar 0 -auto_update 0 -expand_hori fixed -expand_vert fixed -lang {} -runmode {LOCAL-LIVE LOCAL-BATCH REMOTE-BATCH WEB-LIVE WEB-BATCH}
+
+::userGUI::CreateButton 60 0 30 15  -activeimg {[GetUserImageDir]/de_3_aktiv.png} -autoevent 0 -autowrap 0 -borderwidth 0 -border_left 4 -border_right 4 -border_top 4 -border_bottom 4 -command masterbutton3_cmd -compound center -gradient 0 -hidden 0 -imagecut 0 -imagefile {[GetUserImageDir]/de_3_inaktiv.png} -imagescale 1 -imagescaledirection 0 -imagetext 1 -imagetiles 0 -name MasterButton3 -show_hide 0 -shrinkonly 0 -state normal -substtext 1 -transparent 0 -unrestricted 0 -webstyle 1 -dyn_statevar 0 -dyn_updatevar 0 -dyn_validvar 0 -dyn_viewvar 0 -auto_update 0 -expand_hori fixed -expand_vert fixed -lang {} -runmode {LOCAL-LIVE LOCAL-BATCH REMOTE-BATCH WEB-LIVE WEB-BATCH}
+
+::userGUI::CreateButton 90 0 30 15  -activeimg {[GetUserImageDir]/de_4_aktiv.png} -autoevent 0 -autowrap 0 -borderwidth 0 -border_left 0 -border_right 0 -border_top 0 -border_bottom 0 -command masterbutton4_cmd -compound center -gradient 0 -hidden 0 -imagecut 0 -imagefile {[GetUserImageDir]/de_4_inaktiv.png} -imagescale 1 -imagescaledirection 0 -imagetext 1 -imagetiles 0 -name MasterButton4 -relief flat -show_hide 0 -shrinkonly 0 -state normal -substtext 1 -transparent 0 -unrestricted 0 -webstyle 1 -dyn_statevar 0 -dyn_updatevar 0 -dyn_validvar 0 -dyn_viewvar 0 -auto_update 0 -expand_hori fixed -expand_vert fixed -lang {} -runmode {LOCAL-LIVE LOCAL-BATCH REMOTE-BATCH WEB-LIVE WEB-BATCH}
+
+::userGUI::CreateButton 120 0 30 15  -activeimg {[GetUserImageDir]/de_5_aktiv.png} -autoevent 0 -autowrap 0 -borderwidth 0 -border_left 0 -border_right 0 -border_top 0 -border_bottom 0 -command masterbutton5_cmd -compound center -gradient 0 -hidden 0 -imagecut 0 -imagefile {[GetUserImageDir]/de_5_inaktiv.png} -imagescale 1 -imagescaledirection 0 -imagetext 1 -imagetiles 0 -name MasterButton5 -relief flat -show_hide 0 -shrinkonly 0 -state normal -substtext 1 -transparent 0 -unrestricted 0 -webstyle 1 -dyn_statevar 0 -dyn_updatevar 0 -dyn_validvar 0 -dyn_viewvar 0 -auto_update 0 -expand_hori fixed -expand_vert fixed -lang {} -runmode {LOCAL-LIVE LOCAL-BATCH REMOTE-BATCH WEB-LIVE WEB-BATCH}
+
+
+##### master mask end #####
+

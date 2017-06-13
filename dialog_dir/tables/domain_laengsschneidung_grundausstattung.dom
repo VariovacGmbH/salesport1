@@ -1,0 +1,7 @@
+#HEADER						
+master	text	price	image	condition	hash	comment
+#END_HEADER						
+						
+#DATA						
+laengsschneidung_grundausstattung	|laengsschneidung_grundausstattung|	0				
+#END_DATA						

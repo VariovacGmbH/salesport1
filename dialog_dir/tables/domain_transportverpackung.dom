@@ -1,0 +1,10 @@
+#HEADER						
+master	text	price	image	condition	hash	comment
+#END_HEADER						
+						
+#DATA						
+querbalken	|querbalken|					
+bohlengestell	|bohlengestell|					
+verschlag	|verschlag|					
+holzkiste	|holzkiste|					
+#END_DATA						

@@ -1,0 +1,51 @@
+﻿#@PC30
+
+#SOURCE
+### Dialog Setup ###
+SetDialogVariables "recursive"
+SetDialogPreDefault "ExecuteInitValues"
+SetDialogPostDefault "ExecuteUpdateModels"
+SetDialogStyle "[GetUserExtrasDir]/salesport.sty"
+SetDialogMaster "[GetUserExtrasDir]/salesport.msk"
+SetDialogLangFile ""
+SetDialogTablesFile ""
+SetDialogPlaceholdersFile ""
+SetDialogInitFile ""
+SetDialogVarsFile ""
+SetDialogDecisionsFile ""
+SetDialogScriptFile "[GetUserDialogDir]/salesport.dscx"
+SetDialogRulebaseAction ""
+SetDialogInitScript "salesport_init"
+SetDialogMaskOrder "Produkte Basismaschine Packungen Schneidung Sonderausstattung"
+SetDialogNextMask "Produkte"
+SetDialogFrameFile head "[GetUserExtrasDir]/salesport_head.msk"
+SetDialogFrameFile top ""
+SetDialogFrameFile left ""
+SetDialogFrameFile right ""
+SetDialogFrameFile bottom ""
+SetDialogFrameFile foot ""
+
+### Mask Setup ###
+SetDialogMaskTitle Produkte {Produkte}
+SetDialogPopupAnchor Produkte "center"
+SetDialogMaskTitle Basismaschine {Basismaschine}
+SetDialogPopupAnchor Basismaschine "center"
+SetDialogMaskTitle Packungen {Packungen}
+SetDialogPopupAnchor Packungen "center"
+SetDialogMaskTitle Schneidung {Schneidung}
+SetDialogPopupAnchor Schneidung "center"
+SetDialogMaskTitle Sonderausstattung {Sonderausstattung}
+SetDialogPopupAnchor Sonderausstattung "center"
+### Initial Values ###
+### Setup complete ###
+#END_SOURCE
+
+#HEADER
+index:user	userlevel:user	userlang:user	mask_name:user	name:user	gui_type:user	position:user	pos_x:user	pos_y:user	width:user	height:user	text:user	options:user
+DE	Anwenderstatus	Sprache	Maskenname	Elementname	Elementtyp	Position	X-Wert	Y-Wert	Breite	Höhe	Text	Optionen
+#END_HEADER
+
+#DATA
+1	ADMIN EXPERT USER ENDUSER		Produkte	Table1	table	0|0	0	0	150	80		 -autoevent 0 -autoinitial 0 -autowidth 0 -data zusammenfassung_var -expandall 0 -expandlevel 1 -hidden 0 -imagecut 0 -imagescale 0 -imagescaledirection 0 -maxwidth 100 -needed 0 -object wizard -resizablecolumns 0 -rowheight 24 -scroller_hori default -scroller_vert default -selectmode single -show_hide 0 -showlabels 1 -showseparators 1 -showunits 0 -shrinkonly 1 -sortdescending 0 -state normal -stretch all -structure 0 -titlecolumns 0 -unrestricted 0 -usersort 0 -needed_eval 1 -usewidgetstyle 0 -notshowcombinedstate 0 -dyn_statevar 0 -dyn_updatevar 0 -dyn_validvar 0 -dyn_viewvar 0 -auto_update 0 -expand_hori fixed -expand_vert fixed -runmode {LOCAL-LIVE LOCAL-BATCH REMOTE-BATCH WEB-LIVE WEB-BATCH}
+#END_DATA
+

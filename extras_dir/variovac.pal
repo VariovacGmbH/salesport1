@@ -1,0 +1,26 @@
+### configurator color palette
+
+set ::userGUI::palette(1) #99c9e6
+set ::userGUI::palette(2) #ffff80
+set ::userGUI::palette(3) #ff8080
+set ::userGUI::palette(4) #80ff80
+set ::userGUI::palette(5) #4040ff
+set ::userGUI::palette(6) white
+set ::userGUI::palette(7) #c0c0c0
+set ::userGUI::palette(8) #ffff00
+set ::userGUI::palette(9) #ff0000
+set ::userGUI::palette(10) #00ff00
+set ::userGUI::palette(11) #0000ff
+set ::userGUI::palette(12) white
+set ::userGUI::palette(13) #808080
+set ::userGUI::palette(14) #bfbf00
+set ::userGUI::palette(15) #bf0000
+set ::userGUI::palette(16) #00bf00
+set ::userGUI::palette(17) #0000bf
+set ::userGUI::palette(18) white
+set ::userGUI::palette(19) #000000
+set ::userGUI::palette(20) #808000
+set ::userGUI::palette(21) #6a0000
+set ::userGUI::palette(22) #008000
+set ::userGUI::palette(23) #000080
+set ::userGUI::palette(24) white

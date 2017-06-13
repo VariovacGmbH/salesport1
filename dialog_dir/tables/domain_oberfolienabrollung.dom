@@ -1,0 +1,8 @@
+#HEADER						
+master	text	price	image	condition	hash	comment
+#END_HEADER						
+						
+#DATA						
+ofo_fest	|ofo_fest|	1474				
+ofo_taenzerarm	|ofo_taenzerarm|	3110				
+#END_DATA						

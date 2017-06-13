@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dscx format_version="2.1" configurator_version="2017">
+    <confdialog text="Dialog 'SALESPORT'" comment2="" data="{}">
+        <proccontrol text="salesport_init" comment2="" comment="0" data="salesport_init {} {}">
+            <createtable_maskelement text="Tabelle aus Dialogdaten" comment2="" comment="0" data="{function dialogvariables tablename zusammenfassung_var vargroup {} sort 0 returnvar {}}"/>
+            <createtable_maskelement text="Tabelle aus Dialogdaten" comment2="" comment="0" data="{function masksequence tablename tabelle_mask vargroup {} sort 0 returnvar {}}"/>
+        </proccontrol>
+    </confdialog>
+    <confdialog text="Navi" comment2="" data="{}">
+        <proccontrol text="masterbutton1_cmd" comment2="" comment="0" data="masterbutton1_cmd {} {}">
+            <dialogupdatemask text="Update elements" comment2="" comment="0" data="{0 1 {{0 {;MasterButton1;disable}} {1 {;MasterButton2;enable}} {2 {;MasterButton3;enable}} {3 {;MasterButton4;enable}} {4 {;MasterButton5;enable}}}}"/>
+            <dialognavimask text="Dialogsteuerung" comment2="" comment="0" data="{executenext Produkte {} {} {} {} {}}"/>
+            <user text="Benutzerdefiniert" comment2="" comment="1" data="set elements1 &quot;HeadMasterRectangle1&quot;&#xA;set elements2 &quot;HeadMasterRectangle2&quot;&#xA;set elements3 &quot;HeadMasterRectangle3&quot;&#xA;set elements4 &quot;HeadMasterRectangle4&quot;&#xA;set elements5 &quot;HeadMasterRectangle5&quot;&#xA;&#xA;foreach name $elements1 {&#xA;  Widget setcolors -name $name -value &quot;-fg darkgreen -bg blue&quot;&#xA;}&#xA;&#xA;foreach name $elements2 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;foreach name $elements3 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;foreach name $elements4 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;foreach name $elements5 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;"/>
+        </proccontrol>
+        <proccontrol text="masterbutton2_cmd" comment2="" comment="0" data="masterbutton2_cmd {} {}">
+            <dialogupdatemask text="Update elements" comment2="" comment="0" data="{0 1 {{0 {;MasterButton1;enable}} {1 {;MasterButton2;disable}} {2 {;MasterButton3;enable}} {3 {;MasterButton4;enable}} {4 {;MasterButton5;enable}}}}"/>
+            <dialognavimask text="Dialogsteuerung" comment2="" comment="0" data="{executenext Basismaschine {} {} {} {} {}}"/>
+            <user text="Benutzerdefiniert" comment2="" comment="1" data="set elements1 &quot;HeadMasterRectangle1&quot;&#xA;set elements2 &quot;HeadMasterRectangle2&quot;&#xA;set elements3 &quot;HeadMasterRectangle3&quot;&#xA;set elements4 &quot;HeadMasterRectangle4&quot;&#xA;set elements5 &quot;HeadMasterRectangle5&quot;&#xA;&#xA;foreach name $elements1 {&#xA;  Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;foreach name $elements2 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg blue&quot;&#xA;}&#xA;&#xA;foreach name $elements3 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;foreach name $elements4 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;foreach name $elements5 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;"/>
+        </proccontrol>
+        <proccontrol text="masterbutton3_cmd" comment2="" comment="0" data="masterbutton3_cmd {} {}">
+            <dialogupdatemask text="Update elements" comment2="" comment="0" data="{0 1 {{0 {;MasterButton1;enable}} {1 {;MasterButton2;enable}} {2 {;MasterButton3;disable}} {3 {;MasterButton4;enable}} {4 {;MasterButton5;enable}}}}"/>
+            <dialognavimask text="Dialogsteuerung" comment2="" comment="0" data="{executenext Packungen WIZARD {} {} {} {}}"/>
+            <user text="Benutzerdefiniert" comment2="" comment="1" data="set elements1 &quot;HeadMasterRectangle1&quot;&#xA;set elements2 &quot;HeadMasterRectangle2&quot;&#xA;set elements3 &quot;HeadMasterRectangle3&quot;&#xA;set elements4 &quot;HeadMasterRectangle4&quot;&#xA;set elements5 &quot;HeadMasterRectangle5&quot;&#xA;&#xA;foreach name $elements1 {&#xA;  Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;foreach name $elements2 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;foreach name $elements3 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg blue&quot;&#xA;}&#xA;&#xA;foreach name $elements4 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;foreach name $elements5 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;&#xA;"/>
+        </proccontrol>
+        <proccontrol text="masterbutton4_cmd" comment2="" comment="0" data="masterbutton4_cmd {} {}">
+            <dialogupdatemask text="Update elements" comment2="" comment="0" data="{0 1 {{0 {;MasterButton1;enable}} {1 {;MasterButton2;enable}} {2 {;MasterButton3;enable}} {3 {;MasterButton4;disable}} {4 {;MasterButton5;enable}}}}"/>
+            <dialognavimask text="Dialogsteuerung" comment2="" comment="0" data="{executenext Schneidung {} {} {} {} {}}"/>
+            <user text="Benutzerdefiniert" comment2="" comment="1" data="set elements1 &quot;HeadMasterRectangle1&quot;&#xA;set elements2 &quot;HeadMasterRectangle2&quot;&#xA;set elements3 &quot;HeadMasterRectangle3&quot;&#xA;set elements4 &quot;HeadMasterRectangle4&quot;&#xA;set elements5 &quot;HeadMasterRectangle5&quot;&#xA;&#xA;foreach name $elements1 {&#xA;  Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;foreach name $elements2 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;foreach name $elements3 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;foreach name $elements4 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg blue&quot;&#xA;}&#xA;&#xA;foreach name $elements5 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;"/>
+        </proccontrol>
+        <proccontrol text="masterbutton5_cmd" comment2="" comment="0" data="masterbutton5_cmd {} {}">
+            <dialogupdatemask text="Update elements" comment2="" comment="0" data="{0 1 {{0 {;MasterButton1;enable}} {1 {;MasterButton2;enable}} {2 {;MasterButton3;enable}} {3 {;MasterButton4;enable}} {4 {;MasterButton5;disable}}}}"/>
+            <dialognavimask text="Dialogsteuerung" comment2="" comment="0" data="{executenext Sonderausstattung {} {} {} {} {}}"/>
+            <user text="Benutzerdefiniert" comment2="" comment="1" data="set elements1 &quot;HeadMasterRectangle1&quot;&#xA;set elements2 &quot;HeadMasterRectangle2&quot;&#xA;set elements3 &quot;HeadMasterRectangle3&quot;&#xA;set elements4 &quot;HeadMasterRectangle4&quot;&#xA;set elements5 &quot;HeadMasterRectangle5&quot;&#xA;&#xA;foreach name $elements1 {&#xA;  Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;foreach name $elements2 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;foreach name $elements3 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;foreach name $elements4 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg white&quot;&#xA;}&#xA;&#xA;foreach name $elements5 {&#xA;   Widget setcolors -name $name -value &quot;-fg darkgreen -bg blue&quot;&#xA;}&#xA;"/>
+        </proccontrol>
+    </confdialog>
+    <confdialog text="Maske 'Packungen'" comment2="" data="{}">
+        <proccontrol text="decr_anzahl" comment2="" comment="0" data="decr_anzahl {} {}">
+            <breakpoint text="Haltepunkt" comment2="" comment="0" data="{{(1 == 1)}}"/>
+            <getsetuservalue text="Dialogvariablen" comment2="" comment="0" data="{{0 {user_var {$args} {} 0 0 0}}}"/>
+            <getvariable_properties text="Variableneigenschaften lesen" comment2="" comment="0" data="{{$user_var} getvarname var_name}"/>
+            <breakpoint text="Haltepunkt" comment2="" comment="0" data="{{(1 == 1)}}"/>
+        </proccontrol>
+    </confdialog>
+</dscx>
+
